@@ -26,7 +26,7 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Material App',
+      title: 'Excuse Genesis',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(appBarTheme: AppBarTheme(centerTitle: true)),
       home: Scaffold(
