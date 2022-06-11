@@ -22,7 +22,7 @@ class _ExcuseScreenState extends State<ExcuseScreen> {
       
     });
   }
-
+  
   @override
   Widget build(BuildContext context) {
     return Scaffold(

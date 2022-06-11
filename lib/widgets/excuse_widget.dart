@@ -20,9 +20,12 @@ class ExcuseWidget extends StatelessWidget {
       children: [
         Card(
           child: ListTile(
-            title: Text("${excuse1?.excuse ?? "excuse could not be found"}"),
-            subtitle: Text("${excuse1?.category ?? "category could not be found"}"),
-            trailing: Text("Excuse id : ${excuse1?.id ?? "id not existent"}", style: TextStyle(backgroundColor: Colors.amber.shade100),),
+            title: Text("${excuse1?.excuse ?? "Excuse could not be found"}"),
+            subtitle: Text(
+              "Category: ${excuse1?.category ?? "Category could not be found"}",
+              style: TextStyle(fontStyle: FontStyle.italic, fontSize: 11),
+            ),
+            trailing: Expanded(child: Text("Excuse id : ${excuse1?.id ?? "Id non existent"}",)),
           ),
         ),
         ElevatedButton.icon(onPressed: (){

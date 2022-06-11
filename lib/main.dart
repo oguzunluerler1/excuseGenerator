@@ -44,7 +44,7 @@ class _MyAppState extends State<MyApp> {
             });
           },
           items: [
-            BottomNavigationBarItem(icon: Icon(Icons.whatshot_outlined), label: "General"),
+            BottomNavigationBarItem(icon: Icon(Icons.self_improvement), label: "General"),
             BottomNavigationBarItem(icon: Icon(Icons.family_restroom), label: "Family"),
             BottomNavigationBarItem(icon: Icon(Icons.work_rounded), label: "Office"),
             BottomNavigationBarItem(icon: Icon(Icons.child_care), label: "Children"),
